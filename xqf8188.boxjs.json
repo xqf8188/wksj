@@ -287,5 +287,36 @@
     "author": "@NobyDa",
     "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
-  }]
+  }, {
+        "id": "youth",
+        "name": "中青看点",
+        "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq"],
+        "author": "@sunert",
+        "settings": [{
+            "id": "notifytimes",
+            "name": "通知频率 (点击查看设置说明)",
+            "val": "",
+            "type": "number",
+            "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+        },
+        {
+            "id": "zqlogs",
+            "name": "调试日志",
+            "val": false,
+            "type": "boolean",
+            "desc": "调试日志开关，默认关闭"
+        }],
+        "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js",
+        "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"],
+        "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
+    },
+    {
+        "id": "youthGain",
+        "name": "中青浏览赚",
+        "keys": ["youth_start", "youth_end"],
+        "author": "@sunert",
+        "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth_gain.js",
+        "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"],
+        "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js"
+    }]
 }
