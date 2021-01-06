@@ -34,7 +34,7 @@
     "repo": "xqf8188",
     "icons": ["raw.githubusercontent.com/xingliuchao/jd/main/xingliuchao.png", "https://raw.githubusercontent.com/xingliuchao/jd/main/png/qieread.png"],
     "script": "xqf8188.js"
-  },
+  } 
 {
   "id": "NobyDa.app.sub",
   "name": "NobyDa 脚本订阅",
