@@ -1,0 +1,38 @@
+{
+  "id": "xqf8188.app.sub",
+  "name": "xqf8188应用订阅",
+  "author": "@xqf8188",
+  "icon": "",
+  "repo": "xqf8188",
+  "apps": [{
+    "id": "xqf8188",
+    "name": "企鹅🐧阅读",
+    "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3", "qqreadbd4", "qqreadtimeurl4", "qqreadtimehd4", "qqreadbd5", "qqreadtimeurl5","qqreadtimehd5", "qqreadbd6", "qqreadtimeurl6", "qqreadtimehd6", "qqreadbd7", "qqreadtimeurl7", "qqreadtimehd7", "qqreadbd8", "qqreadtimeurl8", "qqreadtimehd8","qqreadbd9", "qqreadtimeurl9", "qqreadtimehd9","qqreadbd10", "qqreadtimeurl10", "qqreadtimehd10","qqreadbd11", "qqreadtimeurl11", "qqreadtimehd11","qqreadbd12", "qqreadtimeurl12", "qqreadtimehd12","qqreadbd13", "qqreadtimeurl13", "qqreadtimehd13","qqreadbd14", "qqreadtimeurl14", "qqreadtimehd14","qqreadbd15", "qqreadtimeurl15", "qqreadtimehd15","qqreadbd16", "qqreadtimeurl16", "qqreadtimehd16","qqreadbd17", "qqreadtimeurl17", "qqreadtimehd17","qqreadbd18", "qqreadtimeurl18", "qqreadtimehd18","qqreadbd19", "qqreadtimeurl19", "qqreadtimehd19","qqreadbd20", "qqreadtimeurl20", "qqreadtimehd20","qqreadbd21", "qqreadtimeurl21", "qqreadtimehd21","qqreadbd22", "qqreadtimeurl22", "qqreadtimehd22","qqreadbd23", "qqreadtimeurl23", "qqreadtimehd23","qqreadbd24", "qqreadtimeurl24", "qqreadtimehd24","qqreadbd25", "qqreadtimeurl25", "qqreadtimehd25"],
+    "author": "@abcd",
+    "settings": [{
+        "id": "qeSuffix",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+      },
+      {
+        "id": "qeCount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+      },
+      {
+        "id": "qeCASH",
+        "name": "提现标准",
+        "val": "0",
+        "type": "number",
+        "desc": "可设置0 1 2 10 30 50 100  设置0关闭，根据需要来设值"
+      }
+    ],
+    "repo": "abcd",
+    "icons": ["raw.githubusercontent.com/xingliuchao/jd/main/xingliuchao.png", "https://raw.githubusercontent.com/xingliuchao/jd/main/png/qieread.png"],
+    "script": "xqf8188.js"
+  }]
+}
