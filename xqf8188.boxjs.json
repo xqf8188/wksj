@@ -3,7 +3,7 @@
   "name": "xqf8188应用订阅",
   "author": "@xqf8188",
   "icon": "",
-  "repo": "xqf8188",
+  "repo": "https://raw.githubusercontent.com/xqf8188/wksj/main/xqf8188.boxjs.json",
   "apps": [{
     "id": "xqf8188",
     "name": "企鹅🐧阅读",
