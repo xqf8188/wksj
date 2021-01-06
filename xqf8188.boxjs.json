@@ -1,291 +1,38 @@
 {
-  “ id ”： “ xqf8188.app.sub ”，
-  “ name ”： “ xqf8188应用订阅”，
-  “ author ”： “ @xqf8188🐧 ”，
-  “ icon ”： “ ”，
-  “ repo ”： “企鹅🐧 ”，
-  “应用程序”：[{
-    “ id ”： “ abcd ”，
-    “ name ”： “企鹅🐧阅读”，
-    “键”：[“ qqreadbd”，“ qqreadtimeurl”，“ qqreadtimehd”，“ qqreadbd2”，“ qqreadtimeurl2”，“ qqreadtimehd2”，“ qqreadbd3”，“ qqreadtimeurl3”，“ qqreadtimehd3”，“ qqreadbd4”， qqreadtimehd4”，“ qqreadbd5”，“ qqreadtimeurl5”，“ qqreadtimehd5”，“ qqreadbd6”，“ qqreadtimeurl6”，“ qqreadtimehd6”，“ qqreadbd7”，“ qqreadtimeurl7”，“ qqreadtimehdb7”，“ qqreadtimed7”，“ qqread” ，“ qqreadbd9”，“ qqreadtimeurl9”，“ qqreadtimehd9”，“ qqreadbd10”，“ qqreadtimeurl10”，“ qqreadtimehd10”，“ qqreadbd11”，“ qqreadtimeurl11”，“qqreadtimehd11“，” qqreadbd12“，” qqreadtimeurl12“，” qqreadtimehd12“，” qqreadbd13“，” qqreadtimeurl13“，” qqreadtimehd13“，” qqreadbd14“，” qqreadtimeurl14“，” qqreadtimehdb14“，” qqreadtimedd14“，” qqread ，“ qqreadbd16”，“ qqreadtimeurl16”，“ qqreadtimehd16”，“ qqreadbd17”，“ qqreadtimeurl17”，“ qqreadtimehd17”，“ qqreadbd18”，“ qqreadtimeurl18”，“ qqreadtimehd18”，“ qqreadbd19”，“ qqreadbd19”， qqreadbd20”，“ qqreadtimeurl20”，“ qqreadtimehd20”，“ qqreadbd21”，“ qqreadtimeurl21”，“ qqreadtimehd21”，“ qqreadbd22”，“qqreadtimeurl22”，“ qqreadtimehd22”，“ qqreadbd23”，“ qqreadtimeurl23”，“ qqreadtimehd23”，“ qqreadbd24”，“ qqreadtimeurl24”，“ qqreadtimehd24”，“ qqreadbd25”，“ qqreadtimeurl25”，“ qqreadtime”
-    “ author ”： “ @abcd ”，
-    “设置”：[{
-        “ id ”： “ qeSuffix ”，
-        “ name ”： “当前账号”，
-        “ val ”： “ 1 ”，
-        “ type ”： “ number ”，
-        “ desc ”： “当前抓取ck记录的账号序号，如：1、2、3，”
-      }，
+  "id": "xqf8188.app.sub",
+  "name": "xqf8188应用订阅",
+  "author": "@xqf8188🐧",
+  "icon": "",
+  "repo": "企鹅🐧",
+  "apps": [{
+    "id": "abcd",
+    "name": "企鹅🐧阅读",
+    "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3", "qqreadbd4", "qqreadtimeurl4", "qqreadtimehd4", "qqreadbd5", "qqreadtimeurl5","qqreadtimehd5", "qqreadbd6", "qqreadtimeurl6", "qqreadtimehd6", "qqreadbd7", "qqreadtimeurl7", "qqreadtimehd7", "qqreadbd8", "qqreadtimeurl8", "qqreadtimehd8","qqreadbd9", "qqreadtimeurl9", "qqreadtimehd9","qqreadbd10", "qqreadtimeurl10", "qqreadtimehd10","qqreadbd11", "qqreadtimeurl11", "qqreadtimehd11","qqreadbd12", "qqreadtimeurl12", "qqreadtimehd12","qqreadbd13", "qqreadtimeurl13", "qqreadtimehd13","qqreadbd14", "qqreadtimeurl14", "qqreadtimehd14","qqreadbd15", "qqreadtimeurl15", "qqreadtimehd15","qqreadbd16", "qqreadtimeurl16", "qqreadtimehd16","qqreadbd17", "qqreadtimeurl17", "qqreadtimehd17","qqreadbd18", "qqreadtimeurl18", "qqreadtimehd18","qqreadbd19", "qqreadtimeurl19", "qqreadtimehd19","qqreadbd20", "qqreadtimeurl20", "qqreadtimehd20","qqreadbd21", "qqreadtimeurl21", "qqreadtimehd21","qqreadbd22", "qqreadtimeurl22", "qqreadtimehd22","qqreadbd23", "qqreadtimeurl23", "qqreadtimehd23","qqreadbd24", "qqreadtimeurl24", "qqreadtimehd24","qqreadbd25", "qqreadtimeurl25", "qqreadtimehd25"],
+    "author": "@abcd",
+    "settings": [{
+        "id": "qeSuffix",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+      },
       {
-        “ id ”： “ qeCount ”，
-        “ name ”： “账号个数”，
-        “ val ”： “ 1 ”，
-        “ type ”： “ number ”，
-        “ desc ”： “指定任务最多跑几个账号，根据抓取的账号数据个数来设值”
-      }，
+        "id": "qeCount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+      },
       {
-        “ id ”： “ qeCASH ”，
-        “ name ”： “提现标准”，
-        “ val ”： “ 0 ”，
-        “ type ”： “ number ”，
-        “ desc ”： “可设置0 1 2 10 30 50 100设置0关闭，根据需要来设置值”
+        "id": "qeCASH",
+        "name": "提现标准",
+        "val": "0",
+        "type": "number",
+        "desc": "可设置0 1 2 10 30 50 100  设置0关闭，根据需要来设值"
       }
-    ]，
-    “ repo ”： “ xqf8188 ”，
-    “图标”：[ “ https://raw.githubusercontent.com/xingliuchao/jd/main/xingliuchao.png ”， “ https://raw.githubusercontent.com/xingliuchao/jd/main/png/qieread.png ” ]，
-    “ script ”： “企鹅🐧阅读.js ”
-  }，{
-    “ id ”： “多合一签到”，
-    “ name ”： “京东”，
-    “ keys ”：[ “ CookieJD ”， “ CookieJD2 ” ]，
-    “ descs_html ”：[
-      “ <H4 ALIGN = \”中心\” >获取曲奇以及脚本配置请查看<a href= \" https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js \">脚本注释</a> </ h4> “，
-      “ <br /> ”，
-      “ <h3 align = \” center \“ >签到相关教程</ h3> ”，
-      “ <p align = \”中心\“ > <iframe src = \” https://www.youtube.com/embed/6vMz1LKF1-8 \“宽度= \” 100％\“高度= \” 100％\“ > </ iframe> </ p> “
-    ]，
-    “设置”：[{
-      “ id ”： “ JD_DailyBonusLog ”，
-      “ name ”： “详细响应日志”，
-      “ VAL ”：假的，
-      “ type ”： “ boolean ”，
-      “ desc ”： “打印原始签到结果，用于调试脚本，一般用户建议关闭。”
-    }，{
-      “ id ”： “ JD_Crash_disable ”，
-      “ name ”： “崩溃自动停机”，
-      “ val ”：是的，
-      “ type ”： “ boolean ”，
-      “ desc ”： “脚本运行崩溃时（如VPN断连），下次运行时将自动切换到相关的崩溃接口（仅部分接口启用），注：崩溃时可能会误插入正常接口。”
-    }，{
-      “ id ”： “ JD_Retry_disable ”，
-      “ name ”： “签到接口增强”，
-      “ val ”：是的，
-      “ type ”： “ boolean ”，
-      “降序”： “用于部分接口提示\”不含活动数据\ “问题，开启后会进行二次查询，注：可能会导致崩溃（小概率）。 ”
-    }，{
-      “ id ”： “ JD_Follow_disable ”，
-      “ name ”： “自动关注店铺”，
-      “ val ”：是的，
-      “ type ”： “ boolean ”，
-      “ desc ”： “部分接口签到过程可能需要关注店铺，如介意替代关闭。”
-    }，{
-      “ id ”： “ JD_DailyBonusDisables ”，
-      “ name ”： “签到接口局部”，
-      “ val ”： “ ”，
-      “类型”： “复选框”，
-      “ desc ”： “ ”，
-      “项目”：[{
-        “ key ”： “ SpeedUp ”，
-        “ label ”： “天天加速”
-      }，{
-        “ key ”： “ JDBean ”，
-        “ label ”： “京东京豆”
-      }，{
-        “ key ”： “ JDWebcasts ”，
-        “ label ”： “京东直播”
-      }，{
-        “ key ”： “ JRBean ”，
-        “ label ”： “金融金贴”
-      }，{
-        “ key ”： “ JRDoll ”，
-        “ label ”： “金融签壹”
-      }，{
-        “ key ”： “ JRTwoDoll ”，
-        “ label ”： “金融签贰”
-      }，{
-        “ key ”： “ JRThreeDoll ”，
-        “ label ”： “金融签叁”
-      }，{
-        “ key ”： “ JRFourDoll ”，
-        “ label ”： “金融签肆”
-      }，{
-        “ key ”： “ JRFiveDoll ”，
-        “ label ”： “金融签伍”
-      }，{
-        “ key ”： “ XJDouble ”，
-        “ label ”： “现金双签”
-      }，{
-        “ key ”： “ JRLottery ”，
-        “ label ”： “金融抽奖”
-      }，{
-        “ key ”： “ JRSteel ”，
-        “ label ”： “金融钢镚”
-      }，{
-        “ key ”： “ JDTurn ”，
-        “ label ”： “京东转盘”
-      }，{
-        “ key ”： “ JDGStore ”，
-        “ label ”： “京东超市”
-      }，{
-        “ key ”： “ TakeaLook ”，
-        “ label ”： “京东看看”
-      }，{
-        “ key ”： “ JDComputer ”，
-        “ label ”： “京东电脑”
-      }，{
-        “ key ”： “ JD3C ”，
-        “ label ”： “京东数码”
-      }，{
-        “ key ”： “ JDClothing ”，
-        “ label ”： “京东服饰”
-      }，{
-        “ key ”： “ JDSuitcase ”，
-        “ label ”： “京东箱包”
-      }，{
-        “ key ”： “ JDUnderwear ”，
-        “ label ”： “京东内衣”
-      }，{
-        “ key ”： “ JDDrug ”，
-        “ label ”： “京东医药”
-      }，{
-        “ key ”： “ JDChild ”，
-        “ label ”： “京东童装”
-      }，{
-        “ key ”： “ JDBaby ”，
-        “ label ”： “京东母婴”
-      }，{
-        “ key ”： “ JDSubsidy ”，
-        “ label ”： “京东晚市”
-      }，{
-        “ key ”： “ JDFineWine ”，
-        “ label ”： “京东酒饮”
-      }，{
-        “ key ”： “ JDCash ”，
-        “ label ”： “京东红包”
-      }，{
-        “ key ”： “ JDFSale ”，
-        “ label ”： “京东闪购”
-      }，{
-        “ key ”： “海外”，
-        “ label ”： “京东国际”
-      }，{
-        “ key ”： “ JDBook ”，
-        “ label ”： “京东图书”
-      }，{
-        “ key ”： “ JDSchool ”，
-        “ label ”： “京东校园”
-      }，{
-        “ key ”： “ JDShoes ”，
-        “ label ”： “京东鞋靴”
-      }，{
-        “ key ”： “ JDHealth ”，
-        “ label ”： “京东健康”
-      }，{
-        “ key ”： “ JDCalendar ”，
-        “ label ”： “京东日历”
-      }，{
-        “ key ”： “ JDWomen ”，
-        “ label ”： “京东女装”
-      }，{
-        “ key ”： “ JDSecKill ”，
-        “ label ”： “京东秒杀”
-      }，{
-        “ key ”： “ JTDouble ”，
-        “ label ”： “金贴双签”
-      }，{
-        “ key ”： “ JDShand ”，
-        “ label ”： “京东二手（如VPN重启，建议补充）”
-      }，{
-        “ key ”： “ JDMakeup ”，
-        “ label ”： “京东美妆（如VPN重启，建议补充）”
-      }，{
-        “ key ”： “ JDClocks ”，
-        “ label ”： “京东钟表（如VPN重新启动，建议补充）”
-      }，{
-        “ key ”： “ JDVege ”，
-        “ label ”： “京东菜场（如VPN重启，建议补充）”
-      }，{
-        “ key ”： “ JDPet ”，
-        “ label ”： “京东宠物（如VPN重启，建议补充）”
-      }，{
-        “ key ”： “ JDClean ”，
-        “ label ”： “京东清洁（如VPN重启，建议补充）”
-      }，{
-        “ key ”： “ JDCare ”，
-        “ label ”： “京东个护（如VPN重新启动，建议补充）”
-      }，{
-        “ key ”： “ JDJewels ”，
-        “ label ”： “京东珠宝（如VPN重启，建议补充）”
-      }，{
-        “ key ”： “ JDCube ”，
-        “ label ”： “京东魔方”
-      }，{
-        “ key ”： “ JDBuyCar ”，
-        “ label ”： “京东汽车”
-      }，{
-        “ key ”： “ JDDouble ”，
-        “ label ”： “京豆双签”
-      }，{
-        “ key ”： “补贴”，
-        “ label ”： “京东金贴”
-      }，{
-        “ key ”： “ JDGetCash ”，
-        “ label ”： “京东现金”
-      }，{
-        “ key ”： “ JDShake ”，
-        “ label ”： “京东摇一摇”
-      }，{
-        “ key ”： “ Qbear ”，
-        “ label ”： “总京豆查询”
-      }，{
-        “ key ”： “ TCash ”，
-        “ label ”： “总红包查询”
-      }，{
-        “ key ”： “ TSteel ”，
-        “ label ”： “总钢镚查询”
-      }，{
-        “ key ”： “ TotalSubsidy ”，
-        “ label ”： “总金贴查询”
-      }，{
-        “ key ”： “ TotalMoney ”，
-        “ label ”： “总现金查询”
-      }]
-    }，{
-      “ id ”： “ JD_DailyBonusTimeOut ”，
-      “ name ”： “超时退出（毫米）”，
-      “ val ”： “ ”，
-      “ type ”： “ number ”，
-      “ placeholder ”： “无限无超时（点击以展开说明）”，
-      “ desc ”： “按需填充，用于由网络初始化引起的脚本中断，正常或越狱用户建议保留空。如QX日志出现大量\“ JS上下文超时\“后脚本中断时，建议填充6000 ”
-    }，{
-      “ id ”： “ JD_DailyBonusDelay ”，
-      “ name ”： “接口延迟（毫米）”，
-      “ val ”： “ ”，
-      “ type ”： “ number ”，
-      “ placeholder ”： “默认并发无延迟（点击以展开说明）”，
-      “ desc ”： “延迟作用于每个签到接口，如填入延迟规则切换顺序签到（耗时替换），VPN重新启动或越狱用户建议填充1，Surge用户请注意在SurgeUI界面调整脚本超时”
-    }]，
-    “脚本”：[{
-      “ name ”： “京东签到”，
-      “脚本”： “ https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js ”
-    }，{
-      “ name ”： “初始化设置”，
-      “脚本”： “ https://gist.githubusercontent.com/NobyDa/91cbe57dd50b3588a975af8922507a72/raw/JD_initial.js ”
-    }]，
-    “ author ”： “ @NobyDa ”，
-    “ repo ”： “ https://github.com/NobyDa/Script/tree/master/JD-DailyBonus ”，
-    “图标”：[ “ https://raw.githubusercontent.com/Orz-3/mini/master/jd.png ”， “ https://raw.githubusercontent.com/Orz-3/task/master/jd。 png “ ]
-  }，{
-      “ id ”： “ 10000 ”，
-      “ name ”： “ 10000 ”，
-      “ keys ”：[]，
-      “ settings ”：[{ “ id ”： “ chavy_mobile_10000 ”， “ name ”： “手机号码”， “ val ”： “ ”， “ type ”： “ textarea ”， “ placeholder ”： “ 18918920000，\ n 18918920000 ”， “ autoGrow ”：true， “行”：5，“ desc ”：“以英文逗号分开多个号码，可加回车” }]，
-      “ author ”： “ @ wangfei021325，@chavyleung ”，
-      “ repo ”： “ https://github.com/chavyleung/scripts/blob/master/10000/10000.js ”，
-      “脚本”： “ https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js ”，
-      “图标”：[ “ https://raw.githubusercontent.com/Orz-3/mini/master/10000.png ”， “ https://raw.githubusercontent.com/Orz-3/task/master/10000。 png “ ]
-    }，
-    {
-      “ id ”： “ 10010 ”，
-      “ name ”： “ 10010 ”，
-      “键”：[ “ chavy_tokenurl_10010 ”， “ chavy_tokenheader_10010 ”， “ chavy_signurl_10010 ”， “ chavy_signheader_10010 ”， “ chavy_loginlotteryurl_10010 ”， “ chavy_loginlotteryheader_10010 ”， “ chavy_findlotteryurl_10010 ”， “ chavy_findlotteryheader_10010 ” ]，
-      “设置”：[
-        { “ id ”：“ chavy_golottery_10010 ”，“ name ”：“天天抽奖”，“ val ”：true，“ type ”：“ boolean ”，“ desc ”：“天天抽奖开关” }，
-        { “ id ”：“ chavy_gosign_10010 ”，“ name ”：“签到”，“ val ”：true，“ type ”：“ boolean ”，“ desc ”：“签到开关” }
-      ]，
-      “ author ”： “ @chavyleung ”，
-      “ repo ”： “ https://github.com/chavyleung/scripts/tree/master/10010 ”，
-      “脚本”： “ https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js ”，
-      “图标”：[ “ https://raw.githubusercontent.com/Orz-3/mini/master/10010.png ”， “ https://raw.githubusercontent.com/Orz-3/task/master/10010。 png “ ]
-    },]
+    ],
+    "repo": "xqf8188",
+    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/baidu.png", "https://raw.githubusercontent.com/Orz-3/task/master/baidu.png"],
+    "script": "企鹅🐧阅读.js"
+  }]
 }
