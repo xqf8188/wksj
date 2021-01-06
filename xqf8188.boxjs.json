@@ -34,7 +34,7 @@
     "repo": "xqf8188",
     "icons": ["https://raw.githubusercontent.com/xingliuchao/jd/main/xingliuchao.png", "https://raw.githubusercontent.com/xingliuchao/jd/main/png/qieread.png"],
     "script": "企鹅🐧阅读.js"
-  }, {
+  },{
     "id": "多合一签到",
     "name": "京东",
     "keys": ["CookieJD", "CookieJD2"],
