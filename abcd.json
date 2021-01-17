@@ -2,7 +2,7 @@
   "name": "阿西吧",
   "description": "薅羊毛",
   "task": [
-    "5 6-18/6 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdduoqiandao.js, tag=京东多合一签到 , img-url= https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/JD_DailyBonus.png",
+    "5 6-18/6 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdduoqiandao.js, tag=京东多合一签到 , img-url= https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jd1.PNG",
     "20 7-19/6 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/zhulima.js, tag=获取助力码, img-url=https://raw.githubusercontent.com/Orz-3/task/master/github.png",
    ]
 }
