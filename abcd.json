@@ -37,7 +37,7 @@
     "0 0 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdC6jdsd.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdC6jdsd.PNG",
     "5 0 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdC7jxqd.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdC7jxqd.PNG",
     "2 0 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdC8qdlxj.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdC8qdlxj.PNG",
-    "1 7 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdC9jdnhj.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdC9jdnhj.JPG"
+    "1 7 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdC9jdnhj.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdC9jdnhj.JPG",
      "1 * * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdD1jdjth.js, tag=京东家庭号 , img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdD1jdjth.PNG",
         "20 13 * * 6 https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdD2hqzlm.js, tag=获取互助码 , img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdD2hqzlm.PNG",
         "11 1 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdD3cjj.js, tag=抽奖机 , img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdD3cjj.PNG",
@@ -53,6 +53,6 @@
         "0,1 19-21/1 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdF4zbjhby.js, tag=直播间红包雨 , img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdF4zbjhby.PNG",
         "1 7 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdF5mhcjd.js, tag=盲盒抽京豆 , img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdF5mhcjd.JPG",
         "1 7 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdF6jdmmb.js, tag=京东秒秒币 , img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdF6jdmmb.JPG",
-        "1 7 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdF7jdfszx.js, tag=京东粉丝专享 , img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdF7jdfszx.PNG"
-  ]
+        "1 7 * * * https://raw.githubusercontent.com/xqf8188/wksj/main/take/jdF7jdfszx.js, tag=京东粉丝专享 , img-url=https://raw.githubusercontent.com/xqf8188/wksj/main/tupian/jdF7jdfszx.PNG" 
+    ]
 }
