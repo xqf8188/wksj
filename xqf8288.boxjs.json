@@ -5,6 +5,43 @@
 "icon": "",
 "repo": "xqf8288",
 "apps": [{
+      "id": "youth",
+      "name": "中青看点",
+      "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq"],
+      "author": "@sunert",
+      "settings": [
+        {
+         "id": "notifytimes",
+         "name": "通知频率 (点击查看设置说明)",
+         "val": "4",
+         "type": "radios",
+         "desc": "无/默认", 
+         "items": [
+            {
+              "val": "0",
+              "label": "静默运行",
+              "desc": "无任何通知"
+            },
+            {
+              "val": "1",
+              "label": "通知常开",
+              "desc": "常开通知"
+            }],
+         "val": "50",
+         "type": "number",
+         "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+         },
+         {
+          "id": "zqlogs",
+          "name": "调试日志",
+          "val": false,
+          "type": "boolean"
+         }
+       ],
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/youth.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"],
+      "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/youth.js"
+    },{
 "id": "qczjspeed",
 "name": "汽车之家极速版",
 "keys": [ "GetUserInfoheader",  "taskbody", "activitybody", "addCoinbody", "addCoin2body", "GetUserInfoheader2", "taskbody2", "activitybody2", "addCoinbody2", "addCoin2body2", "GetUserInfoheader3", "taskbody3", "activitybody3", "addCoinbody3", "addCoin2body3", "GetUserInfoheader4", "taskbody4", "activitybody4", "addCoinbody4", "addCoin2body4",  "GetUserInfoheader5", "taskbody5", "activitybody5", "addCoinbody5", "addCoin2body5","GetUserInfoheader6", "taskbody6", "activitybody6", "addCoinbody6", "addCoin2body6",  "GetUserInfoheader7", "taskbody7", "activitybody7", "addCoinbody7", "addCoin2body7",  "GetUserInfoheader8", "taskbody8", "activitybody8", "addCoinbody8", "addCoin2body8", "GetUserInfoheader9", "taskbody9", "activitybody9", "addCoinbody9", "addCoin2body9", "GetUserInfoheader10", "taskbody10", "activitybody10", "addCoinbody10", "addCoin2body10"],
