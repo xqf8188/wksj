@@ -5,6 +5,136 @@
   "icon": "",
   "repo": "xqf8188",
   "apps": [{
+"id": "qczjspeed",
+"name": "汽车之家极速版",
+"keys": [ "GetUserInfoheader",  "taskbody", "activitybody", "addCoinbody", "addCoin2body", "GetUserInfoheader2", "taskbody2", "activitybody2", "addCoinbody2", "addCoin2body2",],
+"author": "@ziye",
+"settings": [{
+"id": "qczjSuffix",
+"name": "当前账号",
+"val": "1",
+"type": "number",
+"desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+},
+{
+"id": "qczjCount",
+"name": "账号个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+},
+{
+"id": "qczjCASH",
+"name": "提现标准",
+"val": "0",
+"type": "number",
+"desc": "0不提现，可设置0 0.5 2 5 10 20 "
+},
+{
+"id": "qczjCASHTIME",
+"name": "提现时间",
+"val": "0",
+"type": "number",
+"desc": "默认0点后提现，可设置 0 ~ 23  "
+}
+],
+"repo": "https://github.com/ziye12/QCZJSPEED/blob/main/Task/qczjspeed.js",
+"icons": ["https://raw.githubusercontent.com/Orz-3/task/master/qczj.png", "https://raw.githubusercontent.com/Orz-3/task/master/qczj.png"],
+"script": "https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js"
+},
+{
+"id": "xiaole",
+"name": "小乐",
+"keys": ["xiaoleurl", "xiaolehd","xiaoleurl2", "xiaolehd2","xiaoleurl3", "xiaolehd3","xiaoleurl4", "xiaolehd4","xiaoleurl5", "xiaolehd5","xiaoleurl6", "xiaolehd6","xiaoleurl7", "xiaolehd7","xiaoleurl8", "xiaolehd8","xiaoleurl9", "xiaolehd9","xiaoleurl10", "xiaolehd10"],
+"author": "@ziye",
+"settings": [{
+"id": "xlSuffix",
+"name": "当前账号",
+"val": "1",
+"type": "number",
+"desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+},
+{
+"id": "xlCount",
+"name": "账号个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+}
+],
+"repo": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.js",
+"icons": ["https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.png", "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.png"],
+"script": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/xiaole.js"
+},
+{
+"id": "iboxpay",
+"name": "笑谱",
+"keys": [ "iboxpayheader","refreshtoken", "iboxpayheader2","refreshtoken2","iboxpayheader3","refreshtoken3", "iboxpayheader4","refreshtoken4","iboxpayheader5","refreshtoken5"],
+"author": "@ziye",
+"settings": [{
+"id": "iboxpaySuffix",
+"name": "当前账号",
+"val": "1",
+"type": "number",
+"desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+},
+{
+"id": "iboxpayCount",
+"name": "账号个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+},
+{
+"id": "iboxpayLIVE",
+"name": "直播次数",
+"val": "0",
+"type": "number",
+"desc": "0不看直播，可设置 0~60  "
+},
+{
+"id": "iboxpayCASH",
+"name": "提现标准",
+"val": "0",
+"type": "number",
+"desc": "0不提现，可设置 0 1 15 30 100  "
+}
+],
+"repo": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.js",
+"icons": ["https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.png", "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.png"],
+"script": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/iboxpay.js"
+},
+{
+"id": "flw",
+"name": "返利网",
+"keys": [ "flwurl","flwheader","flwspbody","flwqwbody","flwurl2","flwheader2","flwspbody2","flwqwbody2","flwurl3","flwheader3","flwspbody3","flwqwbody3","flwurl4","flwheader4","flwspbody4","flwqwbody4","flwurl5","flwheader5","flwspbody5","flwqwbody5"],
+"author": "@ziye",
+"settings": [{
+"id": "flwSuffix",
+"name": "当前账号",
+"val": "1",
+"type": "number",
+"desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+},
+{
+"id": "flwCount",
+"name": "账号个数",
+"val": "1",
+"type": "number",
+"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+},
+{
+"id": "flwCASH",
+"name": "提现标准",
+"val": "0",
+"type": "number",
+"desc": "默认0，设置0.3及以上时启动天天领现金模块，且大于等于此值时自动提现"
+}
+],
+"repo": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js",
+"icons": ["https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.png", "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.png"],
+"script": "https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js"
+},{
       "id": "youth",
       "name": "中青看点",
       "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq"],
