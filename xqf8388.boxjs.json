@@ -1,9 +1,9 @@
 {
-  "id" : "sunert.app.sub",
-  "author" : "@Sunert",
-  "icon" : "https://avatars2.githubusercontent.com/u/47924389?s=460&u=5152f048a9e8aaa45102763a578172407c40fcc8&v=4",
-  "name" : "Sunert 签到应用订阅",
-  "repo" : "https://github.com/Sunert/Scripts/tree/master",
+  "id": "xqf8388.app.sub",
+"name": "xqf8388 脚本订阅",
+"author": "@xqf8388",
+"icon": "",
+"repo": "xqf8388",
   "apps" : [
     {
       "author" : "@sunert",
