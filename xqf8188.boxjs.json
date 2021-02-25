@@ -325,7 +325,12 @@
         "jd2_fruit1",
         "jd2_fruit2",
         "jd2_fruit3",
-        "jd2_fruit4"
+        "jd2_fruit4", 
+        "jd3_fruit_name",
+        "jd3_fruit1",
+        "jd3_fruit2",
+        "jd3_fruit3",
+        "jd3_fruit4"
       ],
       "descs_html": [
         "<h4 align=\"center\">获取Cookie请查看NobyDa京东签到脚本说明<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js\">脚本注释</a></h4>"
