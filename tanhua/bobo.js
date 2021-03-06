@@ -9,3 +9,22 @@
 
 #波波视频
 http://api.wscdn.vip(.+) url script-response-body https://raw.githubusercontent.com/xqf8188/wksj/main/tanhua/bobo.js
+
+[MITM]
+hostname = api.wscdn.vip,
+
+*/
+
+const path1 = "/index/User/ucenter";
+const path2 = "/index/Get/videoInfo";
+
+let obj = JSON.parse($response.body);
+
+if ($request.url.indexOf(path1) != -1){
+obj.data.isVip = "1",
+obj.data.isVip_forever = "1"
+}
+if ($request.url.indexOf(path2) != -1){
+obj.data.buyStatus = "1"
+}
+$done({body: JSON.stringify(obj)});
