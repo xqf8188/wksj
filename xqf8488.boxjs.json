@@ -1,0 +1,22 @@
+{
+  "id": "xqf8388.app.sub",
+"name": "xqf8388 脚本订阅",
+"author": "@xqf8388",
+"icon": "",
+"repo": "xqf8388",
+  "apps" : [
+    {
+      "author" : "@sunert",
+      "keys" : [
+        "sy_token_wb",
+        "wb_nick"
+      ],
+      "repo" : "https://github.com/Sunert/Scripts/blob/master/Task/weibo.js",
+      "id" : "weibo",
+      "script" : "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js",
+      "name" : "新浪微博",
+      "icons" : [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"
+      ]
+    }
