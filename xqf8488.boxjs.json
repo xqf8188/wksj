@@ -8,16 +8,16 @@
     {
       "author" : "@sunert",
       "keys" : [
-        "sy_token_wb",
-        "wb_nick"
+        "htt_videoname",
+        "htt_dongfangname", "htt_smvideoname", "htt_signurlckname", "htt_signbdname"
       ],
-      "repo" : "https://github.com/Sunert/Scripts/blob/master/Task/weibo.js",
-      "id" : "weibo",
-      "script" : "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js",
-      "name" : "新浪微博",
+      "repo" : "https://githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/HTT/htt_task_4.js",
+      "id" : "A",
+      "script" : "https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/HTT/htt_task_4.js",
+      "name" : "惠头条",
       "icons" : [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"
+        "https://raw.githubusercontent.com/Orz-3/task/master/htt.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/htt.png"
       ]
     }
    ]
