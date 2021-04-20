@@ -19,7 +19,7 @@ const $ = new Env(`番茄看看前台自动阅读`);
     let body = `
     <h1 id='tips'></h1>
     <script>
-    let times = parseInt(Math.random() * (11 - 9 + 1) + 9, 10);
+    let times = parseInt(Math.random() * (8 - 9 + 1) + 9, 10);
     (document.getElementById('tips') || {}).innerHTML = times+'秒后自动返回完成阅读';
     setTimeout(()=>window.history.back(),times*1000);
     </script>`
