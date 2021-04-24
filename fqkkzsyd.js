@@ -9,7 +9,7 @@
 ======== qx ========
 [rewrite_local]
 ^http://.+/(task/read|jump)\? url script-response-header https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-^https?://mp\.weixin\.qq\.com/s.+?k=feizao url response-body var ua = navigator.userAgent; response-body var ua = navigator.userAgent; setTimeout(()=>window.history.back(),5000);
+^https?://mp\.weixin\.qq\.com/s.+?k=feizao url response-body var ua = navigator.userAgent; response-body var ua = navigator.userAgent; setTimeout(()=>window.history.back(),3000);
 
 ======== surge for mac ========
 [Script]
@@ -28,7 +28,7 @@ const $ = new Env(`前台自动阅读`);
       // 响应数据较大，QX会白屏，所以此重写操作不使用脚本处理；Surge for mac可设置响应体大小，自测可用就保留此方式重写脚本了
       let body = $response.body
       if (body.indexOf('var ua = navigator.userAgent;') > 0) {
-        body = body.replace('var ua = navigator.userAgent;', 'var ua = navigator.userAgent; setTimeout(()=>window.history.back(),5000);')
+        body = body.replace('var ua = navigator.userAgent;', 'var ua = navigator.userAgent; setTimeout(()=>window.history.back(),3000);')
         $.done({body})
       } else {
         $.log(`注入失败：未找到替换数据`)
