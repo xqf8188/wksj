@@ -12,13 +12,13 @@ Tg群 t.me/ningmengwj
 自行到圈叉查看日志复制到播放器播放
 想获取谁的直播源就进谁的一下 然后会一直获取最新的
 [rewrite_local]
-https://\S+com/OpenAPI/v1/private/getPrivateLimit\Suid=\d+ url script-request-header http://nm66.top/xnm.js
+https://\S+com/OpenAPI/v1/private/getPrivateLimit\Suid=\d+ url script-request-header https://raw.githubusercontent.com/xqf8188/wksj/main/xdj.js
 
 hostname = api.oidhfjg.com, 7kwsdxaq.shdkw1o.com
 */
 
 // [task_local]
-// */2 * * * * http://nm66.top/xnm.js, tag=柠檬小奶猫获取直播源, img-url=circles.hexagongrid.fill.system, enabled=true
+// */2 * * * * https://raw.githubusercontent.com/xqf8188/wksj/main/xdj.js, tag=柠檬小奶猫获取直播源, img-url=circles.hexagongrid.fill.system, enabled=true
 
 const xnm = '柠檬小奶猫获取直播源'
 const $ = Env('柠檬小奶猫')
