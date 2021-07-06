@@ -13,7 +13,7 @@ TG电报群: https://t.me/ningmeng666
 脚本自动提现 此时可以关了定时
 [rewrite_local]
 #柠檬富豪小镇
-https://sunnytown.hyskgame.com/api/messages\SaccessToken=\w+&msgtype=system_getGpvGameOptions url script-request-body https://ghproxy.com/https://raw.githubusercontent.com/panghu999/ningmeng/main/fhxz.js
+https://sunnytown.hyskgame.com/api/messages\SaccessToken=\w+&msgtype=system_getGpvGameOptions url script-request-body https://raw.githubusercontent.com/xqf8188/wksj/main/fuguixiaozhen.js
 [MITM]
 hostname = sunnytown.hyskgame.com
 #loon
@@ -24,7 +24,7 @@ https://sunnytown.hyskgame.com/api/messages\SaccessToken=\w+&msgtype=system_getG
 
 // [task_local]
 //#柠檬富豪小镇
-// */10 * * * * https://ghproxy.com/https://raw.githubusercontent.com/panghu999/ningmeng/main/fhxz.js, tag=柠檬富豪小镇, enabled=true
+// */10 * * * * https://raw.githubusercontent.com/xqf8188/wksj/main/fuguixiaozhen.js, tag=柠檬富豪小镇, enabled=true
 const $ = new Env('富豪小镇'); 
  let status; 
  status = (status = ($.getval("fhxzstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符 
