@@ -8,10 +8,10 @@ qx：
 ^http://.+/yunonline/v1/task url script-response-body https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
 ^http://.+/(reada/jump|v1/jump|task/read)\? url script-response-header https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
 ^http://.+/mock/read url script-analyze-echo-response https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
-^https?://mp\.weixin\.qq\.com/s.+?k=feizao url response-body </script> response-body setTimeout(()=>window.history.back(),5000); </script>
+^https?://mp\.weixin\.qq\.com/s.+?k=feizao url response-body </script> response-body setTimeout(()=>window.history.back(),7000); </script>
 
 注意：如果微信文章不自动返回，自查是否为ios12的系统，可试试以下重写
-^https?://mp\.weixin\.qq\.com/s.+? url response-body </script> response-body setTimeout(()=>window.history.back(),5000); </script>
+^https?://mp\.weixin\.qq\.com/s.+? url response-body </script> response-body setTimeout(()=>window.history.back(),7000); </script>
 
 Loon: 最新tf自测不通过，还导致云扫码黑了😓
 
@@ -33,7 +33,7 @@ const $ = new Env(`前台自动阅读`);
       // 响应数据较大，QX会白屏，所以此重写操作不使用脚本处理；Surge for mac可设置响应体大小，自测可用就保留此方式重写脚本了
       let body = $response.body
       if (body.indexOf('var ua = navigator.userAgent;') > 0) {
-        body = body.replace('var ua = navigator.userAgent;', 'var ua = navigator.userAgent; setTimeout(()=>window.history.back(),5000);')
+        body = body.replace('var ua = navigator.userAgent;', 'var ua = navigator.userAgent; setTimeout(()=>window.history.back(),7000);')
         $.done({body})
       } else {
         $.log(`注入失败：未找到替换数据`)
