@@ -5,9 +5,9 @@
 
 qx：
 [rewrite_local]
-^http://.+/yunonline/v1/task url script-response-body https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-^http://.+/(reada/jump|v1/jump|task/read)\? url script-response-header https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-^http://.+/mock/read url script-analyze-echo-response https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+^http://.+/yunonline/v1/task url script-response-body https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
+^http://.+/(reada/jump|v1/jump|task/read)\? url script-response-header https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
+^http://.+/mock/read url script-analyze-echo-response https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
 ^https?://mp\.weixin\.qq\.com/s.+?k=feizao url response-body </script> response-body setTimeout(()=>window.history.back(),10000); </script>
 
 注意：如果微信文章不自动返回，自查是否为ios12的系统，可试试以下重写
@@ -17,10 +17,10 @@ Loon: 最新tf自测不通过，还导致云扫码黑了😓
 
 Surge: surge for mac 云扫码自测ok
 [Script]
-鉴权文章标注 = type=http-response,pattern=^http://.+/yunonline/v1/task,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-阅读文章标注 = type=http-response,pattern=^http://.+/(reada/jump|v1/jump|task/read)\?,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-阅读自动返回 = type=http-request,pattern=^http://.+/mock/read,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
-文章自动返回 = type=http-response,pattern=^https?://mp\.weixin\.qq\.com/s.+?k=feizao,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/age174/-/main/fqkk_auto_read.js
+鉴权文章标注 = type=http-response,pattern=^http://.+/yunonline/v1/task,requires-body=1,max-size=0,timeout=10,script-path= https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
+阅读文章标注 = type=http-response,pattern=^http://.+/(reada/jump|v1/jump|task/read)\?,requires-body=1,max-size=0,timeout=10,script-path= https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
+阅读自动返回 = type=http-request,pattern=^http://.+/mock/read,requires-body=1,max-size=0,timeout=10,script-path= https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
+文章自动返回 = type=http-response,pattern=^https?://mp\.weixin\.qq\.com/s.+?k=feizao,requires-body=1,max-size=0,timeout=10,script-path= https://raw.githubusercontent.com/xqf8188/wksj/main/fanqie222222.js
 
 [MITM]
 hostname = mp.weixin.qq.com
