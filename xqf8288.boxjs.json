@@ -224,13 +224,13 @@
             "script":"https://github.com/"
         },
 	{
-            "id":"ydyyapp",
-            "name":"移动影院",
+            "id":"txstock",
+            "name":"腾讯自选股",
             "keys":[
-                "ydyyapp"	
+                "TxStockAppUrl"	
             ],
             "settings": [{
-                "id": "ydyyuserck",
+                "id": "TxStockuserck",
                 "name": "当前账号",
                 "val": "1",
                 "type": "number",
