@@ -23,7 +23,7 @@ async function getShareInfo() {
       console.log("url:" + url);
       console.log("s_si:" + s_si);
       $.msg("中青分享", "", "数据获取成功");
-      for(let i=1;i<3;i++){
+      for(let i=1;i<20;i++){
         await postShareInfoa(url,s_si, i)
       }
 
