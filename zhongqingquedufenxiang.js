@@ -39,7 +39,7 @@ async function getShareInfo() {
 async function postShareInfoa(o_url,o_si, num) {
     return new Promise((resolve) => {
         setTimeout(() => {
-        var desclist = ["㊙️这是秘密分享~", "😁不能外传哦~", "☺️猜猜我是谁~","😆别点击太猛，容易feng","适当分享哈哈哈~","🈶广告位招租~","🔍开天眼查会员找木白姐姐~","🎈TG https://t.me/topstyle996","☎️TG频道 https://t.me/TopStyle2021","😆差不多得了，要黑号了~"];
+        var desclist = [];
         var n_si = randomsi();
         var iosV = parseInt(Math.random() * (14 - 11 + 1) + 11, 10);
         var n_url = o_url.replace(o_si, n_si);
