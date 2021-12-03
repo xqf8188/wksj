@@ -227,7 +227,9 @@
             "id":"txstock",
             "name":"腾讯自选股",
             "keys":[
-                "TxStockAppUrl"	
+                "TxStockAppUrl",
+                "TxStockAppHeader",
+                "TxStockWxHeader"	
             ],
             "settings": [{
                 "id": "TxStockuserck",
