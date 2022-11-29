@@ -18,5 +18,5 @@
 
 hostname = *kuwo*,*lrts*
 
-^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ne|\/a\.p|v\d\/api\/(user\/in|pay\/vi)|\w{3}\/v\d\/user\/vi|\w{3}\/spi\/ms|\w{3}\/v\d\/the|\w{3}\/enc\/use) url script-response-body https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Script/kwyy.js
-^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ui) url script-request-header https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Script/kwyy.js
+^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ne|\/a\.p|v\d\/api\/(user\/in|pay\/vi)|\w{3}\/v\d\/user\/vi|\w{3}\/spi\/ms|\w{3}\/v\d\/the|\w{3}\/enc\/use) url script-response-body https://raw.githubusercontent.com/xqf8188/wksj/main/take/jd1qiandao.js
+^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ui) url script-request-header https://raw.githubusercontent.com/xqf8188/wksj/main/take/jd1qiandao.js
