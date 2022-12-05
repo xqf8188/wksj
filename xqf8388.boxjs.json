@@ -43,9 +43,7 @@
                 "XGSPJINEURL",
                 "XGSPJINEHD",
 		"XGSPLIVEURL",
-		"XGSPLIVEHD"
-
-            ],
+		"XGSPLIVEHD"],
             "settings": [{
                     "id": "xgspSuffix",
                     "name": "当前账号",
