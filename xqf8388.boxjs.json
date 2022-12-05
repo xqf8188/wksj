@@ -28,19 +28,4 @@
                     "val": "1",
                     "type": "number",
                     "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
-                },
-                {
-                    "id": "xgspCount",
-                    "name": "账号个数",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                }],
-            "author":"@xqf888",
-            "repo":"https://github.com/bluesmallpig/scripts",
-            "icons":[
-                "https://raw.githubusercontent.com/XWF888/Task/Main/xgsp.png",
-                "https://raw.githubusercontent.com/XWF888/Task/Main/xgsp.png"
-            ],
-            "script":"https://github.com/"
-        },
+                }
